@@ -25,10 +25,6 @@ class _ToDoPageState extends State<ToDoPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(10),
-                  bottomRight: Radius.circular(10))),
           backgroundColor: AppColors.appbar,
           title: Text(Strings.toDoList,
               style:
